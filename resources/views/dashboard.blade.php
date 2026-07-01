@@ -10,10 +10,11 @@
                     <div class="w-16 h-16 rounded-full bg-blue-600 flex items-center justify-center text-white text-2xl font-bold">
                         {{ strtoupper(substr(Auth::user()->name, 0, 1)) }}
                     </div>
-                    
+
 
                     <div class="ml-5">
                         <h2 class="text-2xl font-bold text-gray-800">
+                            
                             {{ Auth::user()->name }}
                         </h2>
 
